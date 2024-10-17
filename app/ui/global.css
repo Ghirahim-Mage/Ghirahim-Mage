@@ -1,18 +1,168 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-input[type='number'] {
-  -moz-appearance: textfield;
-  appearance: textfield;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+  font-size: 1em;
 }
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+h1 {
+  font-size: 3em;
+  color: #1cd2e2;
+  text-align: center;
 }
 
-input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
+ul {
   margin: 0;
+  width: 40%;
+}
+
+ul span {
+  font-weight: bold;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.home button {
+  background-color: #212529;
+  border: solid 1px #1cd2e2;
+  border-radius: 10px 10px;
+  padding: 5px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.home button:hover {
+  background-color: #424649;
+}
+
+.apropos{
+  margin-top: 1em;
+  color: #212529;
+  font-size: 1.5em;
+  width: 97%;
+}
+
+.apropos {
+  width: 80%;
+}
+
+.ulFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navIcon {
+  width: 12.5%;
+  height: 12.5%;
+}
+
+.navLine, .navLineSelect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5% 0;
+  text-decoration: none;
+}
+
+.navLineSelect {
+  color : #1cd2e2;
+  font-weight: bold;
+}
+
+.navLine:hover {
+  color: #1cd2e2;
+}
+
+.navLink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  background-color: #212529;
+}
+
+img {
+  width: 100%;
+}
+
+.img, .imgSkill, .cardSkill, .imgProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 25%;
+  margin: 1% 0;
+}
+
+.imgSkill {
+  width: 33%;
+}
+
+.cardWrapper, .cardWrapperProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardSkill {
+  width: 30%;
+  flex-direction: column;
+}
+
+.textSkill, .textProject {
+  color: #212529;
+  margin: 1em;
+}
+
+.cardProject {
+  width: 44%;
+  margin: 1.7em;
+}
+
+.imgProject {
+  min-height: 25em;
+}
+
+@media (max-width: 1000px) {
+  html, body {
+    font-size: 0.9em;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .apropos {
+    width: 95%;
+  }
+
+  .cardSkill {
+    width: 45%;
+  }
+
+  .cardProject {
+    width: 90%;
+    margin: 0 0 7.5% 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardSkill {
+    width: 97%;
+  }
 }

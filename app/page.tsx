@@ -1,33 +1,34 @@
-import AcmeLogo from '@/app/ui/acme-logo';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
 export default function Page() {
-  return (
-    <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-        {/* <AcmeLogo /> */}
+  return <>
+    <div class="home">
+      <div>
+        <h1>Grégory Broulin</h1>
       </div>
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
-          </p>
-          <Link
-            href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-          >
-            <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
-        </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
-        </div>
+      <div class="img">
+        <img src="/img/profile.png" alt="photo portfolio"/>
       </div>
-    </main>
-  );
+      <div>
+        <a href="file\CV-Gregory-Broulin.pdf" download="CV-Gregory-Broulin.pdf">
+          <button type="button" download="CV_Gregory_Broulin">&nbsp;&nbsp;Download CV&nbsp;&nbsp;</button>
+        </a>
+      </div>
+      <div class="apropos">
+        <div class="ulFlex">
+          <ul>
+            <li><span>Téléphone :</span>&nbsp;+33 6 62 51 34 98</li>
+            <li><span>Email :</span>&nbsp;gregory.brln@outlook.fr</li>
+            <li><span>Adresse :</span>&nbsp;Noeux-les-Mines 62290, France</li>
+          </ul>
+          <ul>
+            <li><span>Permis :</span>&nbsp;Permis B</li>
+            <li><span>Mobilité :</span>&nbsp;Béthune, Loos-en-Gohelle, Lille, Arras et alentours</li>
+            <li><span>Age :</span>&nbsp;19</li>
+          </ul>
+        </div>
+        <p>Je suis passionné par l'informatique depuis le collège, ainsi à l'arrivée du lycée je choisis l'option
+          Numérique et Sciences de l’Informatique. Actuellement je suis en 3<sup>ème</sup> année de BUT informatique à l'IUT de Lens.</p>
+      </div>
+    </div>
+  </>;
 }
