@@ -1,11 +1,11 @@
 
 export default function Page() {
   return <>
-    <div class="home">
+    <div className="home">
       <div>
         <h1>Grégory Broulin</h1>
       </div>
-      <div class="img">
+      <div className="img">
         <img src="/img/profile.png" alt="photo portfolio"/>
       </div>
       <div>
@@ -13,8 +13,8 @@ export default function Page() {
           <button type="button" download="CV_Gregory_Broulin">&nbsp;&nbsp;Download CV&nbsp;&nbsp;</button>
         </a>
       </div>
-      <div class="apropos">
-        <div class="ulFlex">
+      <div className="apropos">
+        <div className="ulFlex">
           <ul>
             <li><span>Téléphone :</span>&nbsp;+33 6 62 51 34 98</li>
             <li><span>Email :</span>&nbsp;gregory.brln@outlook.fr</li>

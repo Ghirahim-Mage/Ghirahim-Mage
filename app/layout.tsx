@@ -6,8 +6,8 @@ export default function RootLayout({children,}: { children: React.ReactNode; }) 
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
-      <div class="navBar"><SideNav/></div>
-      <div class="content">{children}</div>
+      <div className="navBar"><SideNav/></div>
+      <div className="content">{children}</div>
       </body>
     </html>
   );

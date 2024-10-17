@@ -23,8 +23,8 @@ export default function NavLinks() {
           classLine = "navLineSelect"
         }
         return (
-          <Link key={link.name} href={link.href} class={classLine}>
-            <LinkIcon class="navIcon" />
+          <Link key={link.name} href={link.href} className={classLine}>
+            <LinkIcon className="navIcon" />
             <p>&nbsp;{link.name}</p>
           </Link>
         );
