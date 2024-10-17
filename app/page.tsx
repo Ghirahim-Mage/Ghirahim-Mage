@@ -10,7 +10,7 @@ export default function Page() {
       </div>
       <div>
         <a href="file\CV-Gregory-Broulin.pdf" download="CV-Gregory-Broulin.pdf">
-          <button type="button" download="CV_Gregory_Broulin">&nbsp;&nbsp;Download CV&nbsp;&nbsp;</button>
+          <button type="button">&nbsp;&nbsp;Download CV&nbsp;&nbsp;</button>
         </a>
       </div>
       <div className="apropos">
