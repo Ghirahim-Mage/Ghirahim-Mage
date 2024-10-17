@@ -16,6 +16,6 @@ jobs:
       - name: Deploy
         uses: actions/deploy-pages@v4
         with:
-          github-token: ${{ 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 }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           root: public
