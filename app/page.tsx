@@ -6,7 +6,7 @@ export default function Page() {
         <h1>Grégory Broulin</h1>
       </div>
       <div className="img">
-        <img src="/img/profile.png" alt="photo portfolio"/>
+        <img src="/img/profile.jpg" alt="photo portfolio"/>
       </div>
       <div>
         <a href="file\CV-Gregory-Broulin.pdf" download="CV-Gregory-Broulin.pdf">

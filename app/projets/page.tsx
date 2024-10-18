@@ -6,7 +6,7 @@ export default function Page() {
     <div className="cardWrapper">
       <div className="cardProject">
         <div className="imgProject">
-          <img src="/img/project/flatcraft.png" alt="project"/>
+          <img src="/img/project/flatcraft.jpg" alt="project"/>
         </div>
         <div className="textSkill">
           <h3>Flatcraft [2023-2024] - [Java]</h3>
@@ -22,7 +22,7 @@ export default function Page() {
       </div>
       <div className="cardProject">
         <div className="imgProject">
-          <img src="/img/project/ray-tracing.png" alt="project"/>
+          <img src="/img/project/ray-tracing.jpg" alt="project"/>
         </div>
         <div className="textSkill">
           <h3>Ray tracing [octobre 2023] - [Java]</h3>
@@ -40,7 +40,7 @@ export default function Page() {
       </div>
       <div className="cardProject">
         <div className="imgProject">
-          <img src="/img/project/jo.png" alt="project"/>
+          <img src="/img/project/jo.jpg" alt="project"/>
         </div>
         <div className="textSkill">
           <h3>JO 2024 [2023-2024] - [PHP | Laravel]</h3>
@@ -58,7 +58,7 @@ export default function Page() {
       </div>
       <div className="cardProject">
         <div className="imgProject">
-          <img src="/img/project/marathon.png" alt="project"/>
+          <img src="/img/project/marathon.jpg" alt="project"/>
         </div>
         <div className="textSkill">
           <h3>Marathon du web [décembre 2023] - [PHP | Laravel]</h3>
