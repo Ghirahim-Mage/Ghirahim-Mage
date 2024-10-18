@@ -30,7 +30,7 @@ export default function Page() {
             a pour but de générer, à partir d'un fichier texte, une image composée de formes géométriques
             (triangles et sphères) et des plans. La génération de l'image prend en compte les lumières, les ombres
             générés par les objets et d'autres fonctionnalités.
-            <br>
+            <br/>
             Ce projet m'a permis d'approfondir mes connaissances pour les patrons de conceptions en Java et en
             programmation orientée objet.
           </p>
@@ -46,7 +46,7 @@ export default function Page() {
             Réalisé avec le framework Laravel, ce projet à tout d'abord eu pour but d'afficher une liste de sports
             basés sur la liste des sports des Jeux Olympiques 2024, ensuite j'ai ajouté les athlètes et un classement
             de ces athlètes dans un jeu.
-            <br>
+            <br/>
             Grâce a ce projet, j'ai découvert le framerwork Laravel, ainsi que certains aspects de ce framework
             comme le routage CRUD (Create, Read, Update, Delete) appliqué pour les sports et les athlètes,
             l'authentification et la gestion d'accès, et enfin les relations entre tables.
@@ -64,7 +64,7 @@ export default function Page() {
             Durant 2 journées nous avions chacun des tâches à réaliser, la nôtre était de concevoir un site
             référençant une liste d'histoires composées de chapitres, et qu'un utilisateur connecté puisse lire une
             des histoires, mais aussi qu'il puisse créer lui-même son histoire.
-            <br>
+            <br/>
             Cet évènement m'a permis de consolider mes compétences avec le framework Laravel et en
             base de données et de découvrir le travail de groupe avec d'autres membres que des étudiants
             du départements informatique, en particulier avec le rôle d'intégrateur pour ce projet.
